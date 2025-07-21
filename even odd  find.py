@@ -1,9 +1,17 @@
 
 print("Calculating Even or Odd Numbers")
-a=float (input("Enter Your Number : "))
+a=float (input("Enter the Number : "))
 
+if a<0 :
 
+    print("Negative numbers are not allowed")
+
+else:
+
+    print("You have entered a positive number")
 if (a%2 == 0):
+
     print(str(a) + " is even number !")
+    
 else:
     print(str(a) + " is odd number !")
