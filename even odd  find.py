@@ -1,6 +1,6 @@
 
 print("Calculating Even or Odd Numbers")
-a=float (input("Enter the Number : "))
+a=int (input("Enter the Number : "))
 
 if a<0 :
 
@@ -15,3 +15,6 @@ if (a%2 == 0):
     
 else:
     print(str(a) + " is odd number !")
+    
+print("Thank you for using the program")
+    
