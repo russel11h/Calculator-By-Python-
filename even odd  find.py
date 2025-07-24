@@ -17,4 +17,5 @@ else:
     print(str(a) + " is odd number !")
     
 print("Thank you for using the program")
+print("Have a nice day!")
     
